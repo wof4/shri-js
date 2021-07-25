@@ -14,7 +14,6 @@ function allKeysAndSymbols(obj) {
     set.delete('__proto__');
     return Array.from(set);
 }
-allKeysAndSymbols(o)
 
 
 
